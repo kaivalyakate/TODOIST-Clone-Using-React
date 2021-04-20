@@ -1,0 +1,27 @@
+.TaskLayout{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.TaskContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+.AddForm{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formItem{
+    margin-top: 10px;
+}
+
+.AddTask{
+    border-radius: 20px;
+}

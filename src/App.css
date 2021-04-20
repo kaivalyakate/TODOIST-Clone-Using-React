@@ -1,0 +1,41 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-rows: 5fr 20fr 5fr;
+  grid-gap: 10px;
+  height: 720px;
+}
+
+.wrapper * {
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1px;
+  margin-right: 1px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-family: 'Orelega One', cursive;
+  margin: 10px;
+  color: #c67ace;
+}
+
+.subHeading{
+  font-family: 'Montserrat', sans-serif;
+  color: #ce1f6a;
+}
